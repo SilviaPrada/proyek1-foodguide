@@ -507,7 +507,7 @@
      position: relative;
      font-weight: 700;
      font-size: 16px;
-     color: #000000;
+     color: #DAFF93;
 	 text-transform: uppercase;
      padding-top: 10px;
      padding-bottom: 10px;
@@ -515,13 +515,13 @@
      padding-right: 30px;
 }
  nav.navbar.bootsnav ul.nav li.active > a{
-     color: #b0b435;
+     color: #ffffff;
 }
  nav.navbar.bootsnav ul.nav li.active > a:hover{
-     color: #b0b435;
+     color: black;
 }
  nav.navbar.bootsnav ul.nav li > a:hover{
-     color: #b0b435;
+     color: black;
 }
  nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
      color: #b0b435;
