@@ -1268,13 +1268,31 @@
 /*------------------------------------------------------------------ Footer Main -------------------------------------------------------------------*/
  .footer-main{
      padding: 70px 0px;
-     background: #010101;
+     background: #6F9D04;
 }
 .footer-main hr{
 	border-top: 1px solid rgba(255,255,255,.6);
 }
 .footer-top-box{
-	margin-bottom: 30px;
+    margin-top: 15px;
+}
+.footer-top-box h4{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 700;
+}
+.footer-top-box h4::before {
+    border-bottom: 3px solid #ffffff;
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
 }
 .footer-top-box h3{
 	color: #ffffff;
@@ -1328,7 +1346,7 @@
 }
  .footer-top-box p{
 	 padding-bottom: 15px;
-	 color: #cccccc;
+	 color: #ffffff;
  }
 
  .footer-top-box ul{
@@ -1391,7 +1409,7 @@
      font-weight: 700;
 }
  .footer-link h4::before {
-     border-bottom: 3px solid #b0b435;
+     border-bottom: 3px solid #ffffff;
      content: "";
      height: 3px;
      width: 100%;
@@ -1446,7 +1464,7 @@
      font-weight: 700;
 }
  .footer-link-contact h4::before {
-     border-bottom: 3px solid #b0b435;
+     border-bottom: 3px solid #ffffff;
      content: "";
      height: 3px;
      width: 100%;
@@ -1465,25 +1483,25 @@
 }
  .footer-link-contact ul li p{
      padding-left: 25px;
-     color: #cccccc;
+     color: #ffffff;
      position: relative;
 }
  .footer-link-contact ul li p{
      font-size: 16px;
-     color: #cccccc;
+     color: #ffffff;
      font-weight: 300;
      padding-right: 16px;
      line-height: 24px;
 }
  .footer-link-contact ul li p a{
-     color: #cccccc;
+     color: #ffffff;
 }
  .footer-link-contact ul li p a:hover{
      color: #b0b435;
 }
 /*------------------------------------------------------------------ Copyright -------------------------------------------------------------------*/
  .footer-copyright{
-     background: #060606;
+     background: #6F9D04;
      padding: 20px 0px;
      position: relative;
 }
