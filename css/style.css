@@ -403,6 +403,7 @@
     }
      nav.navbar .navbar-brand img.logo{
          width: 160px;
+
     }
      .attr-nav > ul > li > a{
          padding: 16px 15px 15px;
@@ -515,16 +516,9 @@
      padding-right: 30px;
 }
  nav.navbar.bootsnav ul.nav li.active > a{
-     color: #ffffff;
-}
- nav.navbar.bootsnav ul.nav li.active > a:hover{
-     color: black;
-}
- nav.navbar.bootsnav ul.nav li > a:hover{
-     color: black;
 }
  nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
-     color: #b0b435;
+     color: rgb(134, 138, 29);
 }
  @media (min-width: 1024px) {
      nav.navbar.navbar-inverse ul.nav .dropdown-menu{
@@ -544,6 +538,10 @@
          background-color: rgba(0,0,0,0.3);
          border-bottom: solid 1px #999;
     }
+    nav.navbar.navbar-inverse.navbar-transparent.dark{
+        background-color: rgba(0,0,0,0.3);
+        border-bottom: solid 1px #999;
+   }
      nav.navbar.navbar-inverse.navbar-transparent.dark .attr-nav{
          border-left: solid 1px #999;
     }
@@ -742,7 +740,7 @@
      height: 100vh;
 }
  .slides-navigation a {
-     background: #b0b435;
+     background: #6F9D04;
      position: absolute;
      height: 70px;
      width: 70px;
@@ -798,8 +796,8 @@
 	 border-radius: 6px;
 }
  .slides-pagination a.current{
-     background: #b0b435;
-     border: 2px solid #b0b435;
+     background: #6F9D04;
+     border: 2px solid#6F9D04;
 }
  .cover-slides p a{
      font-size: 24px;
