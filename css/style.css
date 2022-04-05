@@ -314,6 +314,7 @@
 
  .main-header{
 }
+
  .search a{
      color: #b0b435;
 }
@@ -403,6 +404,7 @@
     }
      nav.navbar .navbar-brand img.logo{
          width: 160px;
+
     }
      .attr-nav > ul > li > a{
          padding: 16px 15px 15px;
@@ -507,7 +509,7 @@
      position: relative;
      font-weight: 700;
      font-size: 16px;
-     color: #000000;
+     color: #DAFF93;
 	 text-transform: uppercase;
      padding-top: 10px;
      padding-bottom: 10px;
@@ -515,16 +517,10 @@
      padding-right: 30px;
 }
  nav.navbar.bootsnav ul.nav li.active > a{
-     color: #b0b435;
-}
- nav.navbar.bootsnav ul.nav li.active > a:hover{
-     color: #b0b435;
-}
- nav.navbar.bootsnav ul.nav li > a:hover{
-     color: #b0b435;
+    color: #ffff;
 }
  nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
-     color: #b0b435;
+     color: rgb(134, 138, 29);
 }
  @media (min-width: 1024px) {
      nav.navbar.navbar-inverse ul.nav .dropdown-menu{
@@ -544,6 +540,10 @@
          background-color: rgba(0,0,0,0.3);
          border-bottom: solid 1px #999;
     }
+    nav.navbar.navbar-inverse.navbar-transparent.dark{
+        background-color: rgba(0,0,0,0.3);
+        border-bottom: solid 1px #999;
+   }
      nav.navbar.navbar-inverse.navbar-transparent.dark .attr-nav{
          border-left: solid 1px #999;
     }
@@ -646,7 +646,7 @@
      transform: perspective(1px) translateZ(0);
      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
      position: relative;
-     background: #b0b435;
+     background: yellowgreen;
      -webkit-transition-property: color;
      transition-property: color;
      -webkit-transition-duration: 0.3s;
@@ -662,7 +662,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #000000;
+	background: #3D251E;
 	border-radius: 100%;
 	-webkit-transform: scale(0);
 	transform: scale(0);
@@ -688,6 +688,7 @@
      margin-top: 40px;
      background: #ffffff;
 }
+
  .main-header.fixed-menu {
      position: fixed;
      visibility: hidden;
@@ -742,7 +743,7 @@
      height: 100vh;
 }
  .slides-navigation a {
-     background: #b0b435;
+     background: #6F9D04;
      position: absolute;
      height: 70px;
      width: 70px;
@@ -798,8 +799,8 @@
 	 border-radius: 6px;
 }
  .slides-pagination a.current{
-     background: #b0b435;
-     border: 2px solid #b0b435;
+     background: #6F9D04;
+     border: 2px solid #6F9D04;
 }
  .cover-slides p a{
      font-size: 24px;
@@ -1270,13 +1271,31 @@
 /*------------------------------------------------------------------ Footer Main -------------------------------------------------------------------*/
  .footer-main{
      padding: 70px 0px;
-     background: #010101;
+     background: #6F9D04;
 }
 .footer-main hr{
 	border-top: 1px solid rgba(255,255,255,.6);
 }
 .footer-top-box{
-	margin-bottom: 30px;
+    margin-top: 15px;
+}
+.footer-top-box h4{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 700;
+}
+.footer-top-box h4::before {
+    border-bottom: 3px solid #ffffff;
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
 }
 .footer-top-box h3{
 	color: #ffffff;
@@ -1330,7 +1349,7 @@
 }
  .footer-top-box p{
 	 padding-bottom: 15px;
-	 color: #cccccc;
+	 color: #ffffff;
  }
 
  .footer-top-box ul{
@@ -1393,7 +1412,7 @@
      font-weight: 700;
 }
  .footer-link h4::before {
-     border-bottom: 3px solid #b0b435;
+     border-bottom: 3px solid #ffffff;
      content: "";
      height: 3px;
      width: 100%;
@@ -1448,7 +1467,7 @@
      font-weight: 700;
 }
  .footer-link-contact h4::before {
-     border-bottom: 3px solid #b0b435;
+     border-bottom: 3px solid #ffffff;
      content: "";
      height: 3px;
      width: 100%;
@@ -1467,25 +1486,25 @@
 }
  .footer-link-contact ul li p{
      padding-left: 25px;
-     color: #cccccc;
+     color: #ffffff;
      position: relative;
 }
  .footer-link-contact ul li p{
      font-size: 16px;
-     color: #cccccc;
+     color: #ffffff;
      font-weight: 300;
      padding-right: 16px;
      line-height: 24px;
 }
  .footer-link-contact ul li p a{
-     color: #cccccc;
+     color: #ffffff;
 }
  .footer-link-contact ul li p a:hover{
      color: #b0b435;
 }
 /*------------------------------------------------------------------ Copyright -------------------------------------------------------------------*/
  .footer-copyright{
-     background: #060606;
+     background: #6F9D04;
      padding: 20px 0px;
      position: relative;
 }
@@ -1502,15 +1521,16 @@
 }
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
-     background: url("../images/all-bg-title.jpg") no-repeat center center;
+     background: url("../images/menuResep.jpg") no-repeat center center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -ms-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
+     background-position: top;
      text-align: center;
      background-attachment: fixed;
-     padding: 70px 0px;
+     padding: 70px 20px;
      position: relative;
 }
  .all-title-box::before{
