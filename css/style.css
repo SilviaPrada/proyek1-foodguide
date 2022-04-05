@@ -314,6 +314,7 @@
 
  .main-header{
 }
+
  .search a{
      color: #b0b435;
 }
@@ -516,6 +517,7 @@
      padding-right: 30px;
 }
  nav.navbar.bootsnav ul.nav li.active > a{
+    color: #ffff;
 }
  nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover{
      color: rgb(134, 138, 29);
@@ -644,7 +646,7 @@
      transform: perspective(1px) translateZ(0);
      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
      position: relative;
-     background: #b0b435;
+     background: yellowgreen;
      -webkit-transition-property: color;
      transition-property: color;
      -webkit-transition-duration: 0.3s;
@@ -660,7 +662,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #000000;
+	background: #3D251E;
 	border-radius: 100%;
 	-webkit-transform: scale(0);
 	transform: scale(0);
@@ -686,6 +688,7 @@
      margin-top: 40px;
      background: #ffffff;
 }
+
  .main-header.fixed-menu {
      position: fixed;
      visibility: hidden;
@@ -797,7 +800,7 @@
 }
  .slides-pagination a.current{
      background: #6F9D04;
-     border: 2px solid#6F9D04;
+     border: 2px solid #6F9D04;
 }
  .cover-slides p a{
      font-size: 24px;
@@ -1518,15 +1521,16 @@
 }
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
-     background: url("../images/all-bg-title.jpg") no-repeat center center;
+     background: url("../images/menuResep.jpg") no-repeat center center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -ms-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
+     background-position: top;
      text-align: center;
      background-attachment: fixed;
-     padding: 70px 0px;
+     padding: 70px 20px;
      position: relative;
 }
  .all-title-box::before{
